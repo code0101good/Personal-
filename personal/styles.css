@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Header */
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5;
+    background-color: #24252a;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #24252a;
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.nav{
+    position: fixed;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: rgb(152, 91, 206);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(123, 30, 205);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color: rgba(152, 91, 206, 0.8);
+    /* color: white; */
+}
+
+hr{
+    background-color: rgb(71, 59, 81);
+    color: transparent;
+}
+
+.brand-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;   
+}
+
+.h2{
+    font-size: 30px;
+}
+
+/* Body */
+
+    /* Home */
+
+body{
+    text-align: center;
+}
+
+.body-class{
+    padding-top: 100px ;
+}
+
+/* .profile{
+    align-items: center; 
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    box-shadow: inset; 
+} */
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.page-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+
+    /* Services */
+
+.work-image{
+    display:inline ;
+    justify-content: space-evenly;
+    padding: 50px 170px;
+    width: 10%;
+    height: 10%;
+}
+
+    /* Projects */
+
+.carousel{
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.ss1{
+    width: 50%;
+    scroll-snap-align: start;
+}
+
+.email{
+    padding: 10px;
+    margin: 30px;
+    background-color: #24252a;
+    color: white;
+    border-color: rgb(123, 30, 205);
+}
